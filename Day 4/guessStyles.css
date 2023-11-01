@@ -1,0 +1,28 @@
+body{
+    display:flex;
+    flex-direction: row;
+
+}
+input{
+    width: 60vw;
+    height:20vh;
+    font-size: 10vh;
+    padding:1px;
+     
+}
+
+button{
+    width: 20vw;
+    height:21vh;
+    font-size: 5vw;
+    display:inline-block;
+    box-shadow: 15px 15px 15px 15px;
+   background-image: url('marble.jpg');
+    color:aliceblue;
+    
+}
+
+.layout{
+   padding-inline: 5px;
+}
+

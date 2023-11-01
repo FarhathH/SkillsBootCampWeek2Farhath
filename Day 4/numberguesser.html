@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Number Guessing Game</title>
+        <link rel = "stylesheet" href = "guessStyles.css">
+    </head>
+    <body>
+        <h2 id = "feedback"></h2>
+        <input id = "guess" type = "text"/>
+        <div class = "layout">
+        <button  onclick="attemptGuess()">GUESS</button>
+        </div>
+        <script>
+            let lives = 3
+        function attemptGuess(){
+            let guess = parseInt(document.getElementById("guess").value)
+            let feedback = document.getElementById("feedback")
+            let test = ""
+            const answer = 5
+            
+            
+            lives--
+
+          
+
+            if(guess == answer){
+                test = "You got it"
+                
+            }
+            else if(lives == 0){
+                test = "Game over. You tried, buddy."
+            }
+            else if(guess > answer){
+                test = "Too high"
+                
+            }
+            else{
+                test ="Too low"
+                
+            }
+           
+            if(test != ""){
+             feedback.innerHTML = test
+             console.log(test)
+            }
+            
+            
+        
+
+
+
+
+        }
+        
+        </script>
+    </body>
+</html>

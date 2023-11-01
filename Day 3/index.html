@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+   .outer_box{
+    background-color:black;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    cursor: pointer;
+    color:white;
+    padding: 8px;
+    display: flex;
+    flex-direction: row;
+    border-width: 8px;
+    border-style: dashed;
+    border-color: gold;
+   } 
+.inner_box{
+background-color: red;
+width:100px;
+height:100px;
+text-align: center;
+flex: 0.5;
+border-width: 5px;
+border-style: solid;
+border-color: beige;
+transition: 1s;
+}
+
+.inner_box:hover{
+background-color: aqua;
+width: 200px;
+height:200px;
+border-width: 10px;
+border-style: dotted;
+border-color: blanchedalmond;
+transition: 1s;
+}
+.inner_2{
+background-color: green;
+width:100px;
+height:100px;
+flex: 0.5;
+border-width: 5px;
+border-style: solid;
+border-color: blue;
+transition: 1s;
+}
+
+.inner_2:hover{
+background-color: limegreen;
+width:150px;
+height:150px;
+flex: 0.5;
+border-width: 5px;
+border-style: groove;
+border-color: whitesmoke;
+transition: 1s;
+}
+
+/* .my_class:hover{
+    background-color: blue;
+    color:blueviolet;
+    scale: 50%;
+    transition: 1s;
+} */
+</style>
+</head>
+<body>
+    <div class = "outer_box">
+        <div class = "inner_2">Inside again</div> 
+        <div class = "inner_box">Inside</div>
+    </div>
+
+</body>
+</html>

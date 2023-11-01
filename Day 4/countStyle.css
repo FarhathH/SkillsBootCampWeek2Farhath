@@ -1,0 +1,33 @@
+.button{
+    width:200px;
+    height:200px;
+    background-size: 100vh;
+    background-color: violet;
+    border: 10px solid blue;
+    border-radius: 100px;
+    color:purple;
+    margin: 200px 1000px 1000px 700px;
+    padding: 75px 25px 25px 25px;
+    text-align: center;
+    transition: 0.5s;
+}
+
+.textFormat{
+    margin: 75px 25px 25px 25px;
+}
+.button:hover{
+    scale:200%;
+    background-color: hotpink;
+    border:5px dotted turquoise;
+    transition: 0.5s;
+    font-family: fantasy;
+    color:white;
+}
+
+.imgBackground{
+    background-image: url("shrimp.png");
+    background-size: 100px;
+}
+
+
+

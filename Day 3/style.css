@@ -1,0 +1,87 @@
+#shopping{
+    background-color: black;
+    /* background-size: 500px; */
+    /* background-repeat: no-repeat; */
+    
+    /* text-align: center; */
+    width: 1000px;
+    height: 500px;
+    background-position: center;
+    font-weight: 200;
+  list-style-position: outside;
+    
+}
+
+ol{
+    list-style-position: inside;
+     text-align: center;
+     color:white; 
+     
+ 
+     
+}
+
+.show-time{
+    width:200px;
+    height:200px;
+    cursor:pointer;
+    background-image: center;
+    transition: 1s;
+    border-radius: 50px;
+    background-position: 10%, 500%;
+    
+}
+
+.show-time:hover{
+    width:1000px;
+    height:1000px;
+    transition:1s;
+}
+
+
+ul{
+    list-style:circle;
+    list-style-position: inside;
+    text-align: center;
+    color:white;
+}
+
+.stonk{
+    font: 700;
+    color:white;
+    text-align: center;
+}
+
+img{
+   height: 100px;
+   width:150px;
+   
+}
+
+.img-bg{
+    background-image: url('halloween.jpg');
+    width: 50px;
+    height: 50px;
+    background-repeat: repeat;
+    
+}
+
+.my-link{
+    font-weight: bold;
+    color:crimson;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.my-link:hover{
+    color:darkblue;
+    text-decoration: underline;
+}
+
+table{
+    border: 5px solid blue;
+}
+td{
+ border: 1px dashed blue;   
+}
+

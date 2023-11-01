@@ -1,0 +1,31 @@
+.core{
+    text-align: center;
+    background-image: url('mosaic.jpg');
+    
+}
+
+.core:background-image{
+    opacity: 0.4;
+}
+
+#my-page{
+    font-size: 100px;
+    color:turquoise;
+}
+
+.navigation{
+    color: white;
+    font-size: 50px;
+    background-color: aqua;
+    background-size: auto;
+    border-radius: auto;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.navigation:hover{
+    color:purple;
+    background-color: red;
+    text-decoration: wavy;
+    
+}
